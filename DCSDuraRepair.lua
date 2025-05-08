@@ -2531,6 +2531,7 @@ local DCS_ENCHANT_IDS = {
 	[7884] = "Attack Power +26 and +1% Critical Strike",				--{ Might of the Scourge
 	[7885] = "Stamina +16/Defense +7",									--{ Fortitude of the Scourge
 	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
+	[7943] = "Grand Inquisitor",										--{ Enchant Weapon - Grand Inquisitor
 }
 
 local DCS_ABBREV_ENCHANT_IDS = {
@@ -4044,6 +4045,7 @@ local DCS_ABBREV_ENCHANT_IDS = {
 	[7884] = "AP +26/Crit +1%",						--{ Might of the Scourge
 	[7885] = "Stam +16/Def +7",						--{ Fortitude of the Scourge
 	[7940] = "Grand Crusader",						--{ Enchant Weapon - Grand Crusader
+	[7943] = "Grand Inquisitor",					--{ Enchant Weapon - Grand Inquisitor
 }
 
 --------------------------
