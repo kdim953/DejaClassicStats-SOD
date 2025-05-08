@@ -2523,6 +2523,12 @@ local DCS_ENCHANT_IDS = {
 	[7633] = "Stamina +20/Defense +7/Block Value +15", 					--{ Presence of Valor
 	[7634] = "Stamina +20/Intellect +10/Healing and Spell Damage +12", 	--{ Presence of Sight
 	[7635] = "Stamina +20/Agility +10/Strength +10", 					--{ Falcon's Fury
+	--{ More SoD Enchants
+	[7645] = "All Stats +4/+15 Nature Resistance",						--{ Enchant Chest - Living Stats
+	[7656] = "Agility +9",												--{ Enchant Bracer - Agility
+	[7667] = "Agility +5",												--{ Enchant Cloak - Agility
+	[7885] = "Stamina +16/Defense +7",									--{ Fortitude of the Scourge
+	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
 }
 
 local DCS_ABBREV_ENCHANT_IDS = {
@@ -4028,6 +4034,12 @@ local DCS_ABBREV_ENCHANT_IDS = {
 	[7633] = "Stam +20/Def +7/Block Value +15", 	--{ Presence of Valor
 	[7634] = "Stam +20/Int +10/Dmg & Heals +12", 	--{ Presence of Sight
 	[7635] = "Stam +20/Agi +10/Str +10", 			--{ Falcon's Fury
+	--{ More SoD Enchants
+	[7645] = "Stats +4/+15 Nat Res",						--{ Enchant Chest - Living Stats
+	[7656] = "Agi +9",												--{ Enchant Bracer - Agility
+	[7667] = "Agi +5",												--{ Enchant Cloak - Agility
+	[7885] = "Stam +16/Def +7",									--{ Fortitude of the Scourge
+	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
 }
 
 --------------------------
