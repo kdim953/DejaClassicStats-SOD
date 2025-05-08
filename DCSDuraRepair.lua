@@ -2526,7 +2526,9 @@ local DCS_ENCHANT_IDS = {
 	--{ More SoD Enchants
 	[7645] = "All Stats +4/+15 Nature Resistance",						--{ Enchant Chest - Living Stats
 	[7656] = "Agility +9",												--{ Enchant Bracer - Agility
+	[7666] = "Strength +15",											--{ Enchant Gloves - Superior Strength
 	[7667] = "Agility +5",												--{ Enchant Cloak - Agility
+	[7884] = "Attack Power +26 and +1% Critical Strike",				--{ Might of the Scourge
 	[7885] = "Stamina +16/Defense +7",									--{ Fortitude of the Scourge
 	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
 }
@@ -4035,11 +4037,13 @@ local DCS_ABBREV_ENCHANT_IDS = {
 	[7634] = "Stam +20/Int +10/Dmg & Heals +12", 	--{ Presence of Sight
 	[7635] = "Stam +20/Agi +10/Str +10", 			--{ Falcon's Fury
 	--{ More SoD Enchants
-	[7645] = "Stats +4/+15 Nat Res",						--{ Enchant Chest - Living Stats
-	[7656] = "Agi +9",												--{ Enchant Bracer - Agility
-	[7667] = "Agi +5",												--{ Enchant Cloak - Agility
-	[7885] = "Stam +16/Def +7",									--{ Fortitude of the Scourge
-	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
+	[7645] = "Stats +4/+15 Nat Res",				--{ Enchant Chest - Living Stats
+	[7656] = "Agi +9",								--{ Enchant Bracer - Agility
+	[7666] = "Str +15",								--{ Enchant Gloves - Superior Strength
+	[7667] = "Agi +5",								--{ Enchant Cloak - Agility
+	[7884] = "AP +26/Crit +1%",						--{ Might of the Scourge
+	[7885] = "Stam +16/Def +7",						--{ Fortitude of the Scourge
+	[7940] = "Grand Crusader",						--{ Enchant Weapon - Grand Crusader
 }
 
 --------------------------
