@@ -2523,15 +2523,32 @@ local DCS_ENCHANT_IDS = {
 	[7633] = "Stamina +20/Defense +7/Block Value +15", 					--{ Presence of Valor
 	[7634] = "Stamina +20/Intellect +10/Healing and Spell Damage +12", 	--{ Presence of Sight
 	[7635] = "Stamina +20/Agility +10/Strength +10", 					--{ Falcon's Fury
-	--{ More SoD Enchants
-	[7645] = "All Stats +4/+15 Nature Resistance",						--{ Enchant Chest - Living Stats
-	[7656] = "Agility +9",												--{ Enchant Bracer - Agility
-	[7666] = "Strength +15",											--{ Enchant Gloves - Superior Strength
-	[7667] = "Agility +5",												--{ Enchant Cloak - Agility
-	[7884] = "Attack Power +26 and +1% Critical Strike",				--{ Might of the Scourge
-	[7885] = "Stamina +16/Defense +7",									--{ Fortitude of the Scourge
-	[7940] = "Grand Crusader",											--{ Enchant Weapon - Grand Crusader
-	[7943] = "Grand Inquisitor",										--{ Enchant Weapon - Grand Inquisitor
+	--{ SoD Phase 6/7/8 Enchants
+	[7645] = "Living Stats",									--{ Enchant Chest - Living Stats
+	[7646] = "Holy Damage +20",									--{ Enchant Gloves - Holy Power
+	[7647] = "Arcane Damage +20",								--{ Enchant Gloves - Arcane Power
+	[7648] = "Spell Damage and Healing +10",					--{ Glowing Chitin Armor Kit
+	[7649] = "Thorns +20",										--{ Sharpened Chitin Armor Kit
+	[7655] = "+12 Spell Damage",								--{ Enchant Bracer - Spell Power
+	[7656] = "Agility +9",										--{ Enchant Bracer - Agility
+	[7657] = "Scope (+10 Damage)",								--{ Obsidian Scope
+	[7659] = "+9 Intellect",									--{ Enchant Off-Hand - Superior Intellect
+	[7660] = "+12 Spirit",										--{ Enchant Off-Hand - Excellent Spirit
+	[7661] = "+6 Intellect and +5 Spirit",						--{ Enchant Off-Hand - Wisdom
+	[7662] = "+65 Spell Power",									--{ Enchant 2H Weapon - Spellblasting
+	[7663] = "+12 Stamina",										--{ Enchant Shield - Excellent Stamina
+	[7664] = "+1% Critical Strike Chance",						--{ Enchant Shield - Critical Strike
+	[7665] = "+16 Spell Power",									--{ Enchant Bracer - Greater Spellpower
+	[7666] = "+15 Strength",									--{ Enchant Gloves - Superior Strength
+	[7667] = "+5 Agility",										--{ Enchant Cloak - Agility
+	[7882] = "Healing +31 and +5 mana per 5 sec",				--{ Resilience of the Scourge
+	[7883] = "Spell Damage +15 and +1% Critical Strike",		--{ Power of the Scourge
+	[7884] = "Attack Power +26 and +1% Critical Strike",		--{ Might of the Scourge
+	[7885] = "Stamina +16/Defense +7",							--{ Fortitude of the Scourge
+	[7940] = "Grand Crusader",									--{ Enchant Weapon - Grand Crusader
+	[7941] = "Grand Arcanist",									--{ Enchant 2H Weapon - Grand Arcanist
+	[7942] = "Grand Sorcerer",									--{ Enchant Weapon - Grand Sorcerer
+	[7943] = "Grand Inquisitor",								--{ Enchant 2H Weapon - Grand Inquisitor
 }
 
 local DCS_ABBREV_ENCHANT_IDS = {
@@ -4037,15 +4054,32 @@ local DCS_ABBREV_ENCHANT_IDS = {
 	[7633] = "Stam +20/Def +7/Block Value +15", 	--{ Presence of Valor
 	[7634] = "Stam +20/Int +10/Dmg & Heals +12", 	--{ Presence of Sight
 	[7635] = "Stam +20/Agi +10/Str +10", 			--{ Falcon's Fury
-	--{ More SoD Enchants
-	[7645] = "Stats +4/+15 Nat Res",				--{ Enchant Chest - Living Stats
-	[7656] = "Agi +9",								--{ Enchant Bracer - Agility
-	[7666] = "Str +15",								--{ Enchant Gloves - Superior Strength
-	[7667] = "Agi +5",								--{ Enchant Cloak - Agility
-	[7884] = "AP +26/Crit +1%",						--{ Might of the Scourge
-	[7885] = "Stam +16/Def +7",						--{ Fortitude of the Scourge
-	[7940] = "Grand Crusader",						--{ Enchant Weapon - Grand Crusader
-	[7943] = "Grand Inquisitor",					--{ Enchant Weapon - Grand Inquisitor
+	--{ SoD Phase 6/7/8 Enchants
+	[7645] = "Living Stats",					--{ Enchant Chest - Living Stats
+	[7646] = "+20 Holy Dmg",					--{ Enchant Gloves - Holy Power
+	[7647] = "+20 Arcane Dmg",					--{ Enchant Gloves - Arcane Power
+	[7648] = "+10 Dmg & Heals",					--{ Glowing Chitin Armor Kit
+	[7649] = "+20 Thorns",						--{ Sharpened Chitin Armor Kit
+	[7655] = "+12 Spell Dmg",					--{ Enchant Bracer - Spell Power
+	[7656] = "Agi +9",							--{ Enchant Bracer - Agility
+	[7657] = "Scp +10 Dmg",						--{ Obsidian Scope
+	[7659] = "Int +9",							--{ Enchant Off-Hand - Superior Intellect
+	[7660] = "Spi +12",							--{ Enchant Off-Hand - Excellent Spirit
+	[7661] = "Int +6/Spi +5",					--{ Enchant Off-Hand - Wisdom
+	[7662] = "+65 Dmg",							--{ Enchant 2H Weapon - Spellblasting
+	[7663] = "Stam +12",						--{ Enchant Shield - Excellent Stamina
+	[7664] = "Crit +1%",						--{ Enchant Shield - Critical Strike
+	[7665] = "+16 Spell Dmg",					--{ Enchant Bracer - Greater Spellpower
+	[7666] = "Str +15",							--{ Enchant Gloves - Superior Strength
+	[7667] = "Agi +5",							--{ Enchant Cloak - Agility
+	[7882] = "Heals +31 and 5 MP5",				--{ Resilience of the Scourge
+	[7883] = "Dmg +15 and +1% Spell Crit",		--{ Power of the Scourge
+	[7884] = "AP +26 and +1% Crit",				--{ Might of the Scourge
+	[7885] = "Stam +16 and Def +7",				--{ Fortitude of the Scourge
+	[7940] = "Grand Crusader",					--{ Enchant Weapon - Grand Crusader
+	[7941] = "Grand Arcanist",					--{ Enchant 2H Weapon - Grand Arcanist
+	[7942] = "Grand Sorcerer",					--{ Enchant Weapon - Grand Sorcerer
+	[7943] = "Grand Inquisitor",				--{ Enchant 2H Weapon - Grand Inquisitor
 }
 
 --------------------------
